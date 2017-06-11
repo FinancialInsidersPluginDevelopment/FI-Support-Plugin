@@ -10,7 +10,7 @@
  if(!class_exists('Stripe'))
  {
 	 
- 	 require_once( ABSPATH . '/wp-content/plugins/paid-memberships-pro/includes/lib/Stripe/Stripe.php');
+ 	 require_once( ABSPATH . '/wp-content/plugins/paid-memberships-pro/includes/lib/Stripe/init.php');
 	 
  }
  
