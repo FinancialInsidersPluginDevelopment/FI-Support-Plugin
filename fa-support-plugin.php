@@ -11,6 +11,7 @@
  {
 	 
  	 require_once( ABSPATH . '/wp-content/plugins/paid-memberships-pro/includes/lib/Stripe/init.php');
+ 	 //Had to change the stripe location.
 	 
  }
  
