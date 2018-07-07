@@ -7,13 +7,15 @@
  
  include 'fa-support-listtable.php';
  define('FAS_PLUGIN_URL', plugin_dir_url( __FILE__ ));
- if(!class_exists('Stripe'))
+ if(!class_exists("Stripe\Stripe"))
  {
 	 
  	 require_once( ABSPATH . '/wp-content/plugins/paid-memberships-pro/includes/lib/Stripe/init.php');
  	 //Had to change the stripe location.
 	 
  }
+
+ 
  
  Class FA_Support
  {
